@@ -121,6 +121,50 @@
   margin-bottom: 8px;
 }
 
+/* ......//social networks//...... */
+.social-share {
+  display: flex;
+  justify-content: center
+}
+
+@media (min-width: 964px) {
+  .social-share {
+    justify-content: end;
+  }
+}
+
+.social-share-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-share-list li {
+  display: inline-block;
+  padding-bottom: 0.25rem;
+  padding-left: 0.125rem;
+  padding-right: 0.125rem;
+}
+
+.social-share-list li a {
+  align-items: center;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(0,87,145,.18);
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  transition: .3s;
+  width: 40px;
+}
+
+.social-share-list li a svg {
+  fill: #2a3c51;
+  height: 1.25rem;
+  transition: .3s;
+  width: auto;
+}
+
+
 /* ......//about us//...... */
 
 #about {
