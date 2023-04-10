@@ -124,7 +124,7 @@
 /* ......//social networks//...... */
 .social-share {
   display: flex;
-  justify-content: center
+  justify-content: center;
 }
 
 @media (min-width: 964px) {
@@ -136,6 +136,8 @@
 .social-share-list {
   list-style-type: none;
   padding: 0;
+  display: flex;
+  align-items: center;
 }
 
 .social-share-list li {
@@ -472,13 +474,22 @@
   font-size: 1.3rem;
 }
 
+#footer{
+  background: rgb(65, 65, 65);
+  display: flex;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+}
+
 #footer h2 {
   text-align: center;
   font-size: 1.8rem;
   padding: 2.6rem;
   font-weight: 500;
   color: #fff;
-  background: rgb(65, 65, 65);
 }
 
 /* ......../ media query /.......... */
