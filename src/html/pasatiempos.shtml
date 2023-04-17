@@ -40,7 +40,7 @@
 
             <div class="food-menu-item">
                 <div class="food-img">
-                    <img src="https://i.postimg.cc/sgzXPzzd/food-menu2.jpg" alt="error" />
+                    <img src="../img/book_nature.jpg" alt="error" />
                 </div>
                 <div class="food-description">
                     <h2 class="food-titile">Leer</h2>
@@ -48,12 +48,11 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
                         quae.
                     </p>
-                    <p class="food-price">Price: &#8377; 250</p>
                 </div>
             </div>
             <div class="food-menu-item">
                 <div class="food-img">
-                    <img src="https://i.postimg.cc/8zbCtYkF/food-menu3.jpg" alt="" />
+                    <img src="../img/poetry.jpg" alt="" />
                 </div>
                 <div class="food-description">
                     <h2 class="food-titile">Escribir</h2>
@@ -61,12 +60,11 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
                         quae.
                     </p>
-                    <p class="food-price">Price: &#8377; 250</p>
                 </div>
             </div>
             <div class="food-menu-item">
                 <div class="food-img">
-                    <img src="https://i.postimg.cc/8zbCtYkF/food-menu3.jpg" alt="" />
+                    <img src="../img/cine.jpg" alt="" />
                 </div>
                 <div class="food-description">
                     <h2 class="food-titile">Cine</h2>
@@ -74,12 +72,11 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
                         quae.
                     </p>
-                    <p class="food-price">Price: &#8377; 250</p>
                 </div>
             </div>
             <div class="food-menu-item">
                 <div class="food-img">
-                    <img src="https://i.postimg.cc/wTLMsvSQ/food-menu1.jpg" alt="" />
+                    <img src="../img/futbol.jpg" alt="" />
                 </div>
                 <div class="food-description">
                     <h2 class="food-titile">Fútbol</h2>
@@ -87,7 +84,18 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
                         quae.
                     </p>
-                    <p class="food-price">Price: &#8377; 250</p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="../img/beach_sunset.jpg" alt="" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Naturaleza</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+                        quae.
+                    </p>
                 </div>
             </div>
 
