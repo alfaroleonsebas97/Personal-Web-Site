@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="../css/main.css" />
 
     <title>Sebastian Alfaro Leon</title>
-
+    
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 
@@ -24,38 +24,29 @@
             </div>
             <a class="logo" href="index.shtml">Sebastián Alfaro</a>
             <ul class="menu-items">
-                <li><a class="link" href="misobjetivos.html">Mis objetivos</a></li>
-                <li><a class="link" href="computacion.html">Computación</a></li>
-                <li><a class="link" href="pasatiempos.html">Pasatiempos</a></li>
-                <li><a class="link" href="acercadeestesitio.html">Acerca de este sitio</a></li>
-                <li><a class="link active" href="contactame.html">Contáctame</a></li>
+                <li><a class="link" href="misobjetivos.shtml">Mis objetivos</a></li>
+                <li><a class="link" href="computacion.shtml">Computación</a></li>
+                <li><a class="link" href="pasatiempos.shtml">Pasatiempos</a></li>
+                <li><a class="link active" href="acercadeestesitio.shtml">Acerca de este sitio</a></li>
+                <li><a class="link" href="contactame.shtml">Contáctame</a></li>
             </ul>
         </div>
     </nav>
 
     <section id="contact">
         <div class="contact-container container">
-            <div class="contact-img">
-                <img src="../img/compu.jpg" alt="" />
-            </div>
 
-            <div class="form-container">
-                <h2>Contáctame</h2>
-                <div class="campo">
-                    <p> Facebook: </p> 
-                    <a  href="https://www.facebook.com/sebastian.alfaroleon/">Sebastián Alfaro León</a>    
-                </div>
-                <div class="campo">
-                    <p> Instagram: </p> 
-                    <a  href="https://www.instagram.com/sebasalfaroleon/?hl=es">sebasalfaroleon</a>
-                </div>
-                <div class="campo">
-                    <p> Correo personal:</p>
-                    <a href="mailto:elcorreoquequieres@correo.com">alfaroleonsebas97@gmail.com</a>
-                        
-                </div>
+            <div class="container custom_card">
+                <div class="text-center">
+                    <div class="card-header row">
+                        <h2>Acerca de este sitio</h2>
+                    </div>
+                    <div class="card-body">
+                        <p> Este sitio tiene propósitos académicos.</p>
+                        <p> Es un proyecto del curso de desarrollo de aplicaciones web.</p>
+                        <p> Es un sitio personal, que refleja mi identidad, mis gustos y mis aspiraciones.</p>
+                  </div>
             </div>
-
         </div>
     </section>
 
