@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile": "sass --watch --no-source-map ./src/css/main.scss ./src/css/main.css"
+    "compile": "sass --watch --no-source-map ./src/css/:./src/css/"
   },
   "keywords": [],
   "author": "",
