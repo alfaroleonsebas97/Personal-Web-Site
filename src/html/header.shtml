@@ -12,3 +12,23 @@
 
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <a class="logo active" href="index.shtml">Sebastián Alfaro</a>
+            <ul class="menu-items">
+                <li><a class="link" href="misobjetivos.shtml">Mis objetivos</a></li>
+                <li><a class="link" href="computacion.shtml">Computación</a></li>
+                <li><a class="link" href="pasatiempos.shtml">Pasatiempos</a></li>
+                <li><a class="link" href="acercadeestesitio.shtml">Acerca de este sitio</a></li>
+                <li><a class="link" href="contactame.shtml">Contáctame</a></li>
+            </ul>
+        </div>
+    </nav>
