@@ -66,7 +66,7 @@ main {
   color: #000;
   opacity: 0.95;
   z-index: 12;
-  height: 12vh;
+  height: 75px;
 } 
 
 .menu-items {
@@ -130,7 +130,7 @@ main {
   align-items: center;
   justify-content: center;
   height: 100%; 
-  padding-top: 15vh;
+  padding-top: 85px;
 }
 
 .main-title {
@@ -524,10 +524,6 @@ main {
 /* ......../ media query /.......... */
 
 @media (max-width: 964px) {
-  .navbar {
-    opacity: 0.95;
-  }
-
   .navbar-container input[type="checkbox"],
   .navbar-container .hamburger-lines {
     display: block;
@@ -711,12 +707,6 @@ main {
 
   .img-container .btn {
     font-size: 0.7rem;
-  }
-}
-
-@media (orientation: landscape) and (max-height: 500px) {
-  .perfil-area {
-    height: 50vmax;
   }
 }
 
