@@ -10729,10 +10729,12 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 main {
   background: #f5f5f7;
+  flex-grow: 1;
 }
 
 /* ///////////..utility classes../////////// */
@@ -10957,7 +10959,7 @@ main {
 /* ........./ Mis Objetivos /.......... */
 #objetivos {
   padding-top: 85px;
-  padding-bottom: 15vh;
+  padding-bottom: 85px;
   font-size: 1.4rem;
 }
 
