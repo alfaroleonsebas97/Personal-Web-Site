@@ -54,7 +54,7 @@
     <main id="objetivos">
         <h2 class="objetivos-title">Mis objetivos</h2>
         <div class="card container objetivos-container">
-            <ul class="list-group">
+            <ul class="list-group list-group-flush">
                 <li class="list-group-item">Graduarme de la Escuela de Computación e Informática.</li>
                   <li class="list-group-item">Conseguir un empleo que me proporcione tranquilidad económica y con un
                       buen ambiente laboral.</li>
