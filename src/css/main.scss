@@ -247,6 +247,77 @@ main {
   object-position: right;
 }
 
+
+/* ........./ Mis Objetivos /.......... */
+#objetivos {
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+  font-size: 1.4rem;
+}
+
+.objetivos-title {
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 400;
+  color: #555;
+}
+
+.objetivos-container{
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.dream-img{
+  width: 70%;
+}
+
+/* ........./ Testimonials /.......... */
+
+#testimonials {
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+  background: rgba(243, 243, 243);
+}
+
+.testimonial-title {
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 400;
+  color: #555;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  padding: 1rem;
+}
+
+.testimonial-box .checked {
+  color: #ff9529;
+}
+
+.testimonial-box .testimonial-text {
+  margin: 1rem 0;
+  color: #444;
+}
+
+.testimonial-box {
+  text-align: center;
+  padding: 1rem;
+}
+
+.customer-photo img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  margin: auto;
+}
+
 /* ..........////Food category///........... */
 
 #food {
@@ -376,52 +447,6 @@ main {
   font-weight: 500;
 }
 
-
-/* ........./ Mis Objetivos /.......... */
-
-#mis-objetivos {
-  padding-top: 15vh;
-  padding-bottom: 15vh;
-  background: rgba(243, 243, 243);
-}
-
-.testimonial-title {
-  text-align: center;
-  font-size: 2.8rem;
-  font-weight: 400;
-  color: #555;
-}
-
-.testimonial-container {
-  display: flex;
-  justify-content: space-between;
-  font-size: 1.4rem;
-  padding: 1rem;
-}
-
-.testimonial-box .checked {
-  color: #ff9529;
-}
-
-.testimonial-box .testimonial-text {
-  margin: 1rem 0;
-  color: #444;
-}
-
-.testimonial-box {
-  text-align: center;
-  padding: 1rem;
-}
-
-.customer-photo img {
-  display: block;
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  object-position: center;
-  border-radius: 50%;
-  margin: auto;
-}
 
 /* ........ Contact Us........... */
 
@@ -620,6 +645,11 @@ main {
   .img-container {
     margin: 0;
   }
+
+  .dream-img{
+    width: 100%;
+  }
+
 }
 
 @media (max-width: 500px) {
@@ -671,6 +701,7 @@ main {
     font-size: 1.8rem;
     font-weight: 500;
   }
+
 }
 
 @media (min-width: 769px) and (max-width: 1200px) {
@@ -689,6 +720,3 @@ main {
   }
 }
 
-.sunset{ 
-  width: 100%;
-}
