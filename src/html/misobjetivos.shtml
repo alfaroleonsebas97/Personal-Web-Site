@@ -32,25 +32,7 @@
             </ul>
         </div>
     </nav>
-
-<!--
-    <main id="objetivos">
-        <h2 class="objetivos-title">Mis objetivos</h2>
-        <div class="objetivos-container container">
-            <ul class="list-group">
-                <li class="list-group-item">Graduarme de la Escuela de Computación e Informática</li>
-                <li class="list-group-item">Conseguir un empleo que me proporcione tranquilidad económica y con un
-                    buen ambiente laboral.</li>
-                <li class="list-group-item">LLevar una alimentación más saludable.</li>
-                <li class="list-group-item">Hacer ejercicios más constantemente.</li>
-                <li class="list-group-item">Escribir un libro.</li>
-                <li class="list-group-item">Mejorar mi hábito de lectura.</li>
-                <li class="list-group-item">Aprender más sobre diseño de aplicaciones web.</li>
-                <li class="list-group-item">Conocer más lugares de Costa Rica.</li>
-            </ul>
-            <img class="dream-img" src="../img/dream.jpg" alt="dream">
-        </div>
-    -->
+    
     <main id="objetivos">
         <h2 class="objetivos-title">Mis objetivos</h2>
         <div class="card container objetivos-container">
