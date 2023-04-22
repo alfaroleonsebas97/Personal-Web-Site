@@ -33,7 +33,7 @@
         </div>
     </nav>
 
-    <section id="contact">
+    <main id="contact">
         <div class="contact-container container">
 
             <div class="container custom_card">
@@ -48,7 +48,7 @@
                   </div>
             </div>
         </div>
-    </section>
+    </main>
 
     <footer id="footer">
         <div class="container footer-container">
