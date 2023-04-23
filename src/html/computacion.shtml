@@ -34,8 +34,8 @@
     </nav>
 
 
-    <main id="computacion">
-        <h2>Computación</h2>
+    <main class="principal">
+        <h2 class="heading">Computación</h2>
         <div class="computacion-container container">
             <div class="computacion-group">
                 <div class="computacion-type">

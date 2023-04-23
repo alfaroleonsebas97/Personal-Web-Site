@@ -22,10 +22,10 @@
                 <span class="line line2"></span>
                 <span class="line line3"></span>
             </div>
-            <a class="logo" href="index.shtml">Sebastián Alfaro</a>
+            <a class="logo active" href="index.shtml">Sebastián Alfaro</a>
             <ul class="menu-items">
                 <li><a class="link" href="misobjetivos.shtml">Mis objetivos</a></li>
-                <li><a class="link active" href="computacion.shtml">Computación</a></li>
+                <li><a class="link" href="computacion.shtml">Computación</a></li>
                 <li><a class="link" href="pasatiempos.shtml">Pasatiempos</a></li>
                 <li><a class="link" href="acercadeestesitio.shtml">Acerca de este sitio</a></li>
                 <li><a class="link" href="contactame.shtml">Contáctame</a></li>
@@ -33,48 +33,37 @@
         </div>
     </nav>
 
-
-    <section id="food">
-        <h2>Computación</h2>
-        <div class="food-container container">
-            <div class="food-type fruite">
-                <div class="img-container">
-                    <img src="https://i.postimg.cc/yxThVPXk/food1.jpg" alt="error" />
-                    <div class="img-content">
-                        <h3>¿Por qué computación?</h3>
-                        <a href="https://en.wikipedia.org/wiki/Fruit" class="btn btn-primary" target="blank">ir</a>
-                    </div>
-                </div>
-            </div>
-            <div class="food-type vegetable">
-                <div class="img-container">
-                    <img src="https://i.postimg.cc/Nffm6Rkk/food2.jpg" alt="error" />
-                    <div class="img-content">
-                        <h3>Cursos preferidos</h3>
-                        <a href="https://en.wikipedia.org/wiki/Fruit" class="btn btn-primary" target="blank">ir</a>
-                    </div>
-                </div>
-            </div>
-            <div class="food-type grin">
-                <div class="img-container">
-                    <img src="https://i.postimg.cc/76ZwsPsd/food3.jpg" alt="error" />
-                    <div class="img-content">
-                        <h3>Profesores y compañeros</h3>
-                        <a href="https://en.wikipedia.org/wiki/Fruit" class="btn btn-primary" target="blank">ir</a>
-                    </div>
-                </div>
-            </div>
-            <div class="food-type grin">
-                <div class="img-container">
-                    <img src="https://i.postimg.cc/76ZwsPsd/food3.jpg" alt="error" />
-                    <div class="img-content">
-                        <h3>Descargas</h3>
-                        <a href="https://en.wikipedia.org/wiki/Fruit" class="btn btn-primary" target="blank">ir</a>
-                    </div>
+    <main class="principal">
+        <div class="container custom_card">
+            <div class="text-center">
+                <div class="card-header">
+                    <h2 class="heading">Mis trabajos</h2>
+                  </div>
+                <div class="card-body">
+                    <h3> Juego Battle City </h3>
+                    <img class="games_img" src="../img/battleCity.png" alt="game">
+                    <p> En colaboración con : </p>
+                    <p> Juan Garro </p>
+                    <p> Lester Murillo </p>
+                    <p> Eddy Ruiz </p>
+                    <a href="https://github.com/lestercorderomurillo/MazeEngineFramework">GITHUB</a>
+                    <hr />
+                    <h3> Juego Owl Rush</h3>
+                    <img class="games_img" src="../img/owl.png" alt="game">
+                    <p> En colaboración con : </p>
+                    <p> Juan Garro </p>
+                    <p> Bruno Conejo </p>
+                    <a href="https://git.ucr.ac.cr/JUAN.GARRONUNEZ/web21a-proyectob-juan-sebastian-bruno">GITUCR</a>
+                    <hr />
+                    <h3> Interactive English Learner</h3>
+                    <img class="games_img" src="../img/interactive-learner.png" alt="game">
+                    <p> En colaboración con : </p>
+                    <p> Javier Molina </p>
+                    <a href="https://github.com/javierandres04/TCU-501-Iteractive-learner">GITHUB</a>
                 </div>
             </div>
         </div>
-    </section>
+    </main>
 
 
     <footer id="footer">

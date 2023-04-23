@@ -1,5 +1,7 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
+
+/* ///////////..common../////////// */
 html {
   padding: 0;
   margin: 0;
@@ -18,13 +20,30 @@ main {
   flex-grow: 1;
 }
 
-/* ///////////..utility classes../////////// */
+.principal {
+  padding-top: 85px;
+  padding-bottom: 85px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 400;
+  color: #555;
+  text-transform: uppercase;
+}
 
 .container {
   max-width: 1200px;
   width: 90%;
   margin: auto;
 }
+
+.big-img {
+  width: 70%;
+}
+
+/* ///////////..botones../////////// */
 
 .btn {
   display: inline-block;
@@ -266,18 +285,6 @@ main {
 }
 
 /* ........./ Mis Objetivos /.......... */
-#objetivos {
-  padding-top: 85px;
-  padding-bottom: 85px;
-  font-size: 1.4rem;
-}
-
-.objetivos-title {
-  text-align: center;
-  font-size: 2.8rem;
-  font-weight: 400;
-  color: #555;
-}
 
 .objetivos-container {
   padding: 0;
@@ -285,26 +292,8 @@ main {
   align-items: center;
 }
 
-.dream-img {
-  width: 70%;
-}
-
 
 /* ..........////Computacion///........... */
-
-#computacion {
-  padding-top: 85px;
-  padding-bottom: 85px;
-}
-
-#computacion h2 {
-  text-align: center;
-  font-size: 2.5rem;
-  font-weight: 400;
-  margin-bottom: 40px;
-  text-transform: uppercase;
-  color: #555;
-}
 
 .computacion-container {
   display: flex;
@@ -409,18 +398,6 @@ main {
 
 /* .........../Pasatiempos/............ */
 
-.pasatiempos {
-  padding-top: 85px;
-  padding-bottom: 85px;
-}
-
-.pasatiempos-heading {
-  text-align: center;
-  font-size: 3.4rem;
-  font-weight: 400;
-  color: #666;
-}
-
 .pasatiempos-container {
   display: flex;
   flex-wrap: wrap;
@@ -491,53 +468,6 @@ main {
   }
 }
 
-
-/* ........./ Testimonials /.......... */
-
-#testimonials {
-  padding-top: 15vh;
-  padding-bottom: 15vh;
-  background: rgba(243, 243, 243);
-}
-
-.testimonial-title {
-  text-align: center;
-  font-size: 2.8rem;
-  font-weight: 400;
-  color: #555;
-}
-
-.testimonial-container {
-  display: flex;
-  justify-content: space-between;
-  font-size: 1.4rem;
-  padding: 1rem;
-}
-
-.testimonial-box .checked {
-  color: #ff9529;
-}
-
-.testimonial-box .testimonial-text {
-  margin: 1rem 0;
-  color: #444;
-}
-
-.testimonial-box {
-  text-align: center;
-  padding: 1rem;
-}
-
-.customer-photo img {
-  display: block;
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  object-position: center;
-  border-radius: 50%;
-  margin: auto;
-}
-
 /* ........ Contact Us........... */
 
 #contact {
@@ -593,6 +523,31 @@ main {
   margin-bottom: 1rem;
   margin-top: -1.2rem;
 }
+
+/* ......../ descargas /.......... */
+.custom_card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: rgba(218, 218, 218, 0.8);
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.card-header {
+  padding: 0.5rem 1rem;
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.games_img {
+  width: 30%;
+}
+
+
 
 /* ......../ media query /.......... */
 
@@ -703,9 +658,9 @@ main {
     flex-direction: column;
   }
 
-  /* ......./ objetivos /......... */
+  /* ......./ common /......... */
 
-  .dream-img {
+  .big-img {
     width: 100%;
   }
 
@@ -718,20 +673,6 @@ main {
 
   .navbar .menu-items li {
     font-size: 1.6rem;
-  }
-
-  .testimonial-container {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .food-menu-container img {
-    margin: auto;
-  }
-
-  .food-menu-item {
-    flex-direction: column;
-    text-align: center;
   }
 
   .form-container {

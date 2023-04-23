@@ -25,7 +25,7 @@
             <a class="logo" href="index.shtml">Sebastián Alfaro</a>
             <ul class="menu-items">
                 <li><a class="link" href="misobjetivos.shtml">Mis objetivos</a></li>
-                <li><a class="link active" href="computacion.shtml">Computación</a></li>
+                <li><a class="link" href="computacion.shtml">Computación</a></li>
                 <li><a class="link" href="pasatiempos.shtml">Pasatiempos</a></li>
                 <li><a class="link" href="acercadeestesitio.shtml">Acerca de este sitio</a></li>
                 <li><a class="link" href="contactame.shtml">Contáctame</a></li>
@@ -33,6 +33,28 @@
         </div>
     </nav>
 
+    <main class="principal">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="heading">Cursos favoritos de la carrera</h2>
+                <div class="card-body">
+                    <ul class="list-group">
+                        <li class="list-group-item">Introducción a la coputación</li>
+                        <li class="list-group-item">Programación 1</li>
+                        <li class="list-group-item">Lenguaje ensamblador.</li>
+                        <li class="list-group-item">Análisis de algoritmos y estructuras de datos.</li>
+                        <li class="list-group-item">Interacción-Humano Computador.</li>
+                        <li class="list-group-item">Desarrollo de aplciones web.</li>
+                        <li class="list-group-item">Desarrollo de aplciones para dispositivos móviles.</li>
+                        <li class="list-group-item">Administración de proyectos.</li>
+                        <li class="list-group-item">
+                            <img class="big-img" src="../img/razonesCompu.jpg" alt="compu">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
 
     <footer id="footer">
         <div class="container footer-container">

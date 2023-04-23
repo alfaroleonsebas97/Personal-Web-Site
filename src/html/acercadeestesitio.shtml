@@ -35,10 +35,9 @@
 
     <main id="contact">
         <div class="contact-container container">
-
-            <div class="container custom_card">
+            <div class="container">
                 <div class="text-center">
-                    <div class="card-header row">
+                    <div class="card-header">
                         <h2>Acerca de este sitio</h2>
                     </div>
                     <div class="card-body">

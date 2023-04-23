@@ -25,7 +25,7 @@
             <a class="logo" href="index.shtml">Sebastián Alfaro</a>
             <ul class="menu-items">
                 <li><a class="link" href="misobjetivos.shtml">Mis objetivos</a></li>
-                <li><a class="link active" href="computacion.shtml">Computación</a></li>
+                <li><a class="link" href="computacion.shtml">Computación</a></li>
                 <li><a class="link" href="pasatiempos.shtml">Pasatiempos</a></li>
                 <li><a class="link" href="acercadeestesitio.shtml">Acerca de este sitio</a></li>
                 <li><a class="link" href="contactame.shtml">Contáctame</a></li>
@@ -33,73 +33,53 @@
         </div>
     </nav>
 
-    <main>
-        <section id="testimonials">
-            <h2 class="testimonial-title">Mis objetivos</h2>
-            <div class="testimonial-container container">
-                <div class="testimonial-box">
-                    <div class="customer-detail">
-                        <div class="customer-photo">
-                            <img src="https://i.postimg.cc/5Nrw360Y/male-photo1.jpg" alt="" />
-                            <p class="customer-name">Ross Lee</p>
-                        </div>
-                    </div>
-                    <div class="star-rating">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                    </div>
-                    <p class="testimonial-text">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
-                        voluptas cupiditate aspernatur odit doloribus non.
-                    </p>
-    
-                </div>
-                <div class="testimonial-box">
-                    <div class="customer-detail">
-                        <div class="customer-photo">
-                            <img src="https://i.postimg.cc/sxd2xCD2/female-photo1.jpg" alt="" />
-                            <p class="customer-name">Amelia Watson</p>
-                        </div>
-                    </div>
-                    <div class="star-rating">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                    </div>
-                    <p class="testimonial-text">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
-                        voluptas cupiditate aspernatur odit doloribus non.
-                    </p>
-    
-                </div>
-                
-                <div class="testimonial-box">
-                    <div class="customer-detail">
-                        <div class="customer-photo">
-                            <img src="https://i.postimg.cc/fy90qvkV/male-photo3.jpg" alt="" />
-                            <p class="customer-name">Ben Roy</p>
-                        </div>
-                    </div>
-                    <div class="star-rating">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                    </div>
-                    <p class="testimonial-text">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
-                        voluptas cupiditate aspernatur odit doloribus non.
-                    </p>
-    
+    <main class="principal">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="heading">Mis Profesores</h2>
+                <div class="card-body">
+                    <ul class="list-group">
+                        <li class="list-group-item">Pujol Mesalles Josefina</li>
+                        <li class="list-group-item">Barquero Elizondo Alexander</li>
+                        <li class="list-group-item">Barrantes Sliesarieva Gabriela</li>
+                        <li class="list-group-item">Calderón Castro Alan</li>
+                        <li class="list-group-item">Camacho Lozano Arturo.</li>
+                        <li class="list-group-item">Gang Vincenzi Ricardo</li>
+                        <li class="list-group-item">Hidalgo Céspedes Jeisson</li>
+                        <li class="list-group-item">Kikut Valverde Sandra</li>
+                        <li class="list-group-item">Malinowski Gajda Elzbieta</li>
+                        <li class="list-group-item">Solano Rojas Braulio</li>
+                        <li class="list-group-item">Vargas Solano Roxana</li>
+                        <li class="list-group-item">Villalobos Arias Leonardo</li>
+                        <li class="list-group-item">Villalón Fonseca Ricardo</li>
+                    </ul>
                 </div>
             </div>
-        </section>
+        </div>
+        <div class="container">
+            <div class="text-center">
+                <h2 class="heading">Mis compañeros</h2>
+                <div class="card-body">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dilian Badilla</li>
+                        <li class="list-group-item">Joseph Rementería</li>
+                        <li class="list-group-item">Dayana Marín</li>
+                        <li class="list-group-item">Jenifer Villalobos</li>
+                        <li class="list-group-item">Luis Carlos Quesada</li>
+                        <li class="list-group-item">Alejandro Abarca</li>
+                        <li class="list-group-item">Roy Rojas</li>
+                        <li class="list-group-item">Juan Garro</li>
+                        <li class="list-group-item">Bruno Conejo</li>
+                        <li class="list-group-item">David Solórzano</li>
+                        <li class="list-group-item">Daniel Henao</li>
+                        <li class="list-group-item">Daniela Quesada</li>
+                        <li class="list-group-item">
+                            <img class="big-img" src="../img/classRoom.jpg" alt="compu">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div> 
     </main>
 
     <footer id="footer">

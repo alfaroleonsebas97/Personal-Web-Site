@@ -25,7 +25,7 @@
             <a class="logo" href="index.shtml">Sebastián Alfaro</a>
             <ul class="menu-items">
                 <li><a class="link" href="misobjetivos.shtml">Mis objetivos</a></li>
-                <li><a class="link active" href="computacion.shtml">Computación</a></li>
+                <li><a class="link" href="computacion.shtml">Computación</a></li>
                 <li><a class="link" href="pasatiempos.shtml">Pasatiempos</a></li>
                 <li><a class="link" href="acercadeestesitio.shtml">Acerca de este sitio</a></li>
                 <li><a class="link" href="contactame.shtml">Contáctame</a></li>
@@ -33,11 +33,30 @@
         </div>
     </nav>
 
-
+    <main class="principal">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="heading">¿Por qué escogí la carrera de Computación?</h2>
+                <div class="card-body">
+                    <ul class="list-group">
+                        <li class="list-group-item">Por la gran oferta laboral que hay.</li>
+                        <li class="list-group-item">Porque se pueden conseguir trabajos bien remunerados.</li>
+                        <li class="list-group-item">Porque me encantan las computadoras.</li>
+                        <li class="list-group-item">Porque me gustan los problemas y el razonamiento lógico.</li>
+                        <li class="list-group-item">Porque la computación tiene un gran impacto en casi cualquier área.</li>
+                        <li class="list-group-item">Por recomendaciones.</li>
+                        <li class="list-group-item">
+                            <img class="big-img" src="../img/algoritmos.jpg" alt="compu">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
 
     <footer id="footer">
         <div class="container footer-container">
-            <h2>Sebastián Alfaro León &copy; all rights reserved</h2>
+            <h2>Sebastián Alfaro León &copy;</h2>
             <ul class="social-share-list">
                 <li>
                     <a href="https://www.facebook.com/sebastian.alfaroleon/" title="Facebook">

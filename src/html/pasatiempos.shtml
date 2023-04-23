@@ -34,8 +34,8 @@
     </nav>
 
 
-    <main class="pasatiempos">
-        <h2 class="pasatiempos-heading">Pasatiempos</h2>
+    <main class="principal">
+        <h2 class="heading">Pasatiempos</h2>
         <div class="pasatiempos-container container">
 
             <div class="pasatiempo-item">
