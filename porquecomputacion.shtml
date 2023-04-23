@@ -13,7 +13,7 @@
                         <li class="list-group-item">Porque la computación tiene un gran impacto en casi cualquier área.</li>
                         <li class="list-group-item">Por recomendaciones.</li>
                         <li class="list-group-item">
-                            <img class="big-img" src="../img/algoritmos.jpg" alt="compu">
+                            <img class="big-img" src="./img/algoritmos.jpg" alt="compu">
                         </li>
                     </ul>
                 </div>

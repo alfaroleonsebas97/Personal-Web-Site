@@ -41,7 +41,7 @@
                         <li class="list-group-item">Daniel Henao</li>
                         <li class="list-group-item">Daniela Quesada</li>
                         <li class="list-group-item">
-                            <img class="big-img" src="../img/classRoom.jpg" alt="compu">
+                            <img class="big-img" src="./img/classRoom.jpg" alt="compu">
                         </li>
                     </ul>
                 </div>

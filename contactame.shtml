@@ -1,0 +1,29 @@
+<!--#include file="header.shtml" -->
+
+    <main id="contactame" class="contact">
+        <div class="contact-container container">
+            <div class="contact-img">
+                <img src="./img/compu.jpg" alt="" />
+            </div>
+
+            <div class="form-container">
+                <h2>Contáctame</h2>
+                <div class="campo">
+                    <p> Facebook: </p> 
+                    <a  href="https://www.facebook.com/sebastian.alfaroleon/">Sebastián Alfaro León</a>    
+                </div>
+                <div class="campo">
+                    <p> Instagram: </p> 
+                    <a  href="https://www.instagram.com/sebasalfaroleon/?hl=es">sebasalfaroleon</a>
+                </div>
+                <div class="campo">
+                    <p> Correo personal:</p>
+                    <a href="mailto:alfaroleonsebas97@gmail.com">alfaroleonsebas97@gmail.com</a>
+                        
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+<!--#include file="footer.shtml" -->

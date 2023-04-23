@@ -4,7 +4,7 @@
             <div class="perfil-container">
                 <h1 class="main-title">Bienvenido</h1>
                 <h4> Mi nombre es Sebastián Alfaro León.</h4>
-                <img id="profile-photo" src="../img/myPhoto.jpg" alt="Mi fotografía">
+                <img id="profile-photo" src="./img/myPhoto.jpg" alt="Mi fotografía">
             </div>
             <div class="social-share container">
                 <ul class="social-share-list">
@@ -55,7 +55,7 @@
                         Software.</p>
                 </div>
                 <div class="about-img">
-                    <img src="../img/ECCI.jpg" alt="ecci" />
+                    <img src="./img/ECCI.jpg" alt="ecci" />
                 </div>
             </div>
         </section>

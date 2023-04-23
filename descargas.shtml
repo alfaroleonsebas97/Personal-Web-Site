@@ -8,7 +8,7 @@
                   </div>
                 <div class="card-body">
                     <h3> Juego Battle City </h3>
-                    <img class="games_img" src="../img/battleCity.png" alt="game">
+                    <img class="games_img" src="./img/battleCity.png" alt="game">
                     <p> En colaboración con : </p>
                     <p> Juan Garro </p>
                     <p> Lester Murillo </p>
@@ -16,14 +16,14 @@
                     <a href="https://github.com/lestercorderomurillo/MazeEngineFramework">GITHUB</a>
                     <hr />
                     <h3> Juego Owl Rush</h3>
-                    <img class="games_img" src="../img/owl.png" alt="game">
+                    <img class="games_img" src="./img/owl.png" alt="game">
                     <p> En colaboración con : </p>
                     <p> Juan Garro </p>
                     <p> Bruno Conejo </p>
                     <a href="https://git.ucr.ac.cr/JUAN.GARRONUNEZ/web21a-proyectob-juan-sebastian-bruno">GITUCR</a>
                     <hr />
                     <h3> Interactive English Learner</h3>
-                    <img class="games_img" src="../img/interactive-learner.png" alt="game">
+                    <img class="games_img" src="./img/interactive-learner.png" alt="game">
                     <p> En colaboración con : </p>
                     <p> Javier Molina </p>
                     <a href="https://github.com/javierandres04/TCU-501-Iteractive-learner">GITHUB</a>

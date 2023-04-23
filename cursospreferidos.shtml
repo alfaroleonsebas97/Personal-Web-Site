@@ -15,7 +15,7 @@
                         <li class="list-group-item">Desarrollo de aplciones para dispositivos móviles.</li>
                         <li class="list-group-item">Administración de proyectos.</li>
                         <li class="list-group-item">
-                            <img class="big-img" src="../img/razonesCompu.jpg" alt="compu">
+                            <img class="big-img" src="./img/razonesCompu.jpg" alt="compu">
                         </li>
                     </ul>
                 </div>

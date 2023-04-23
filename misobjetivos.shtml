@@ -14,7 +14,7 @@
                   <li class="list-group-item">Aprender más sobre desarrollo de aplicaciones web.</li>
                   <li class="list-group-item">Conocer más lugares de Costa Rica.</li>
             </ul>
-            <img class="big-img" src="../img/dream.jpg" alt="dream">
+            <img class="big-img" src="./img/dream.jpg" alt="dream">
             
           </div>
     </main>

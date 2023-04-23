@@ -6,7 +6,7 @@
 
             <div class="pasatiempo-item">
                 <div class="pasatiempo-img">
-                    <img src="../img/book_nature.jpg" alt="error" />
+                    <img src="./img/book_nature.jpg" alt="error" />
                 </div>
                 <div class="pasatiempo-description">
                     <h2 class="pasatiempo-title">Leer</h2>
@@ -23,7 +23,7 @@
             </div>
             <div class="pasatiempo-item">
                 <div class="pasatiempo-img">
-                    <img src="../img/poetry.jpg" alt="" />
+                    <img src="./img/poetry.jpg" alt="" />
                 </div>
                 <div class="pasatiempo-description">
                     <h2 class="pasatiempo-title">Escribir</h2>
@@ -40,12 +40,12 @@
                         sea una caricia o un saludo de caridad.<br>
                     </p>
                     <a href="https://www.wattpad.com/user/SebasAlfaroLeon" title="wattpad icons"><img
-                            src="../img/wattpad.png" alt="" /></a>
+                            src="./img/wattpad.png" alt="" /></a>
                 </div>
             </div>
             <div class="pasatiempo-item">
                 <div class="pasatiempo-img">
-                    <img src="../img/cine.jpg" alt="" />
+                    <img src="./img/cine.jpg" alt="" />
                 </div>
                 <div class="pasatiempo-description">
                     <h2 class="pasatiempo-title">Cine</h2>
@@ -56,7 +56,7 @@
             </div>
             <div class="pasatiempo-item">
                 <div class="pasatiempo-img">
-                    <img src="../img/futbol.jpg" alt="" />
+                    <img src="./img/futbol.jpg" alt="" />
                 </div>
                 <div class="pasatiempo-description">
                     <h2 class="pasatiempo-title">Fútbol</h2>
@@ -67,7 +67,7 @@
             </div>
             <div class="pasatiempo-item">
                 <div class="pasatiempo-img">
-                    <img src="../img/beach_sunset.jpg" alt="" />
+                    <img src="./img/beach_sunset.jpg" alt="" />
                 </div>
                 <div class="pasatiempo-description">
                     <h2 class="pasatiempo-title">Naturaleza</h2>

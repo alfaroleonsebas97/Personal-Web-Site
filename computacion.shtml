@@ -7,7 +7,7 @@
                 <div class="computacion-type">
                     <div class="img-container">
                         <h3>¿Por qué computación?</h3>
-                        <img src="../img/algoritmos.jpg" alt="error" />
+                        <img src="./img/algoritmos.jpg" alt="error" />
                         <div class="img-content">
                             <h3>¿Por qué computación?</h3>
                             <a href="porquecomputacion.shtml" class="btn btn-primary">ir</a>
@@ -17,7 +17,7 @@
                 <div class="computacion-type">
                     <div class="img-container">
                         <h3>Cursos preferidos</h3>
-                        <img src="../img/razonesCompu.jpg" alt="error" />
+                        <img src="./img/razonesCompu.jpg" alt="error" />
                         <div class="img-content">
                             <h3>Cursos preferidos</h3>
                             <a href="cursospreferidos.shtml" class="btn btn-primary">ir</a>
@@ -29,7 +29,7 @@
                 <div class="computacion-type">
                     <div class="img-container">
                         <h3>Profesores y compañeros</h3>
-                        <img src="../img/classRoom.jpg" alt="error" />
+                        <img src="./img/classRoom.jpg" alt="error" />
                         <div class="img-content">
                             <h3>Profesores y compañeros</h3>
                             <a href="profesoresycompañeros.shtml" class="btn btn-primary">ir</a>
@@ -39,7 +39,7 @@
                 <div class="computacion-type">
                     <div class="img-container">
                         <h3>Descargas</h3>
-                        <img src="../img/download.jpg" alt="error" />
+                        <img src="./img/download.jpg" alt="error" />
                         <div class="img-content">
                             <h3>Descargas</h3>
                             <a href="descargas.shtml" class="btn btn-primary">ir</a>
