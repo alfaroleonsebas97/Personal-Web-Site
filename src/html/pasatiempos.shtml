@@ -34,64 +34,79 @@
     </nav>
 
 
-    <section id="food-menu">
-        <h2 class="food-menu-heading">Pasatiempos</h2>
-        <div class="food-menu-container container">
+    <main class="pasatiempos">
+        <h2 class="pasatiempos-heading">Pasatiempos</h2>
+        <div class="pasatiempos-container container">
 
-            <div class="food-menu-item">
-                <div class="food-img">
+            <div class="pasatiempo-item">
+                <div class="pasatiempo-img">
                     <img src="../img/book_nature.jpg" alt="error" />
                 </div>
-                <div class="food-description">
-                    <h2 class="food-titile">Leer</h2>
+                <div class="pasatiempo-description">
+                    <h2 class="pasatiempo-title">Leer</h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
-                        quae.
+                        Entre mis libros favoritos destacan Cien años de soledad de Gabriel García Márquez,
+                        Un mundo Feliz de Aldous Huxley,
+                        Prohibido suicidarse en primavera de Alejandro Casona,
+                        Diez negritos de Agatha Christie,
+                        Soy un gato de Natsume Sōseki,
+                        El extraño caso del doctor Jekyll y el señor Hyde de Robert Louis Stevens,
+                        El señor de los anillos de J. R. R. Tolkien...
                     </p>
                 </div>
             </div>
-            <div class="food-menu-item">
-                <div class="food-img">
+            <div class="pasatiempo-item">
+                <div class="pasatiempo-img">
                     <img src="../img/poetry.jpg" alt="" />
                 </div>
-                <div class="food-description">
-                    <h2 class="food-titile">Escribir</h2>
+                <div class="pasatiempo-description">
+                    <h2 class="pasatiempo-title">Escribir</h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
-                        quae.
+                        Uno de mis hobbies es escribir. Típicamente lo que se me da es la poesía.
                     </p>
+                    <p class="poema"> Mestiza ardiente de ojitos relucientes,<br>
+                        ni humo de tabaco ni shot de tequila,<br>
+                        voz de chiquilla se clava en mi mente,<br>
+                        pocos argumentos poco elocuentes,<br>
+                        le abren la puerta a la demencia,<br>
+                        aunque el corazón no rime con la realidad,<br>
+                        no dejo de soñar con no soñar,<br>
+                        sea una caricia o un saludo de caridad.<br>
+                    </p>
+                    <a href="https://www.wattpad.com/user/SebasAlfaroLeon" title="wattpad icons"><img
+                            src="../img/wattpad.png" alt="" /></a>
                 </div>
             </div>
-            <div class="food-menu-item">
-                <div class="food-img">
+            <div class="pasatiempo-item">
+                <div class="pasatiempo-img">
                     <img src="../img/cine.jpg" alt="" />
                 </div>
-                <div class="food-description">
-                    <h2 class="food-titile">Cine</h2>
+                <div class="pasatiempo-description">
+                    <h2 class="pasatiempo-title">Cine</h2>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
                         quae.
                     </p>
                 </div>
             </div>
-            <div class="food-menu-item">
-                <div class="food-img">
+            <div class="pasatiempo-item">
+                <div class="pasatiempo-img">
                     <img src="../img/futbol.jpg" alt="" />
                 </div>
-                <div class="food-description">
-                    <h2 class="food-titile">Fútbol</h2>
+                <div class="pasatiempo-description">
+                    <h2 class="pasatiempo-title">Fútbol</h2>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
                         quae.
                     </p>
                 </div>
             </div>
-            <div class="food-menu-item">
-                <div class="food-img">
+            <div class="pasatiempo-item">
+                <div class="pasatiempo-img">
                     <img src="../img/beach_sunset.jpg" alt="" />
                 </div>
-                <div class="food-description">
-                    <h2 class="food-titile">Naturaleza</h2>
+                <div class="pasatiempo-description">
+                    <h2 class="pasatiempo-title">Naturaleza</h2>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
                         quae.
@@ -100,12 +115,12 @@
             </div>
 
         </div>
-    </section>
+    </main>
 
 
     <footer id="footer">
         <div class="container footer-container">
-            <h2>Sebastián Alfaro León &copy; all rights reserved</h2>
+            <h2>Sebastián Alfaro León &copy;</h2>
             <ul class="social-share-list">
                 <li>
                     <a href="https://www.facebook.com/sebastian.alfaroleon/" title="Facebook">
