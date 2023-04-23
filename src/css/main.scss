@@ -1,5 +1,13 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
+/*...........variables............*/
+$background-color: #f5f5f7;
+$heading-color: #555;
+$turquoise1: #16a083;
+$turquoise2: #117964;
+$navbar-color: #aaa;
+
+
 
 /* ///////////..common../////////// */
 html {
@@ -16,7 +24,7 @@ body {
 }
 
 main {
-  background: #f5f5f7;
+  background: $background-color;
   flex-grow: 1;
 }
 
@@ -29,7 +37,7 @@ main {
   text-align: center;
   font-size: 2.8rem;
   font-weight: 400;
-  color: #555;
+  color: $heading-color;
   text-transform: uppercase;
 }
 
@@ -57,12 +65,12 @@ main {
 }
 
 .btn-primary {
-  color: #fff;
-  background: #16a083;
+  color: white;
+  background: $turquoise1;
 }
 
 .btn-primary:hover {
-  background: #117964;
+  background: $turquoise2;
   transition: background 0.3s ease-in-out;
 }
 
@@ -78,11 +86,11 @@ main {
 }
 
 .navbar {
-  box-shadow: 0px 5px 10px 0px #aaa;
+  box-shadow: 0px 5px 10px 0px $navbar-color;
   position: fixed;
   width: 100%;
-  background: #fff;
-  color: #000;
+  background: white;
+  color: black;
   opacity: 0.95;
   z-index: 12;
   height: 75px;
@@ -110,7 +118,7 @@ main {
 }
 
 .menu-items a:hover {
-  color: #16a083;
+  color: $turquoise1;
   transition: color 0.3s ease-in-out;
 }
 
@@ -119,15 +127,15 @@ main {
   margin: 0;
   white-space: nowrap;
   text-decoration: none;
-  color: #117964;
+  color: $turquoise2;
 }
 
 .logo:hover {
-  color: #16a083;
+  color: $turquoise1;
 }
 
 .active {
-  color: #16a083;
+  color: $turquoise1;
   pointer-events: none;
 }
 
@@ -147,7 +155,7 @@ main {
   font-size: 1.8rem;
   padding: 2.6rem;
   font-weight: 500;
-  color: #fff;
+  color: white;
 }
 
 /* ............//// Perfil ////......... */
@@ -470,14 +478,14 @@ main {
 
 /* ........ Contact Us........... */
 
-#contact {
+.contact {
   padding: 18vh 0 6vh 0;
   background: rgb(226, 226, 226);
 }
 
 .contact-container {
   display: flex;
-  background: #fff;
+  background: white;
 }
 
 .contact-img {
@@ -612,7 +620,7 @@ main {
 
   .navbar .menu-items {
     padding-top: 100px;
-    background: #fff;
+    background: white;
     height: 100vh;
     width: 50%;
     transform: translate(-150%);
