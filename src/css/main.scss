@@ -480,6 +480,15 @@ main {
   .pasatiempo-item {
     flex-wrap: wrap;
   }
+
+  .pasatiempo-item {
+    justify-content: center;
+  }
+
+  .pasatiempo-img img {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 
